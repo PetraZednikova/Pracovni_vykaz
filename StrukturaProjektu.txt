@@ -1,0 +1,21 @@
+📂 prace_vykaz/
+├── 📂 data/
+│   ├── 📄 employees.json        # Uložení zaměstnanců a jejich hodin
+│   ├── 📄 config.json           # Konfigurace svátků a nastavení
+    ├── 📄 employees_backup.json # Uložení zálohy zaměstnanců a jejich hodin
+│
+├── 📂 templates/
+│   └── 📄 template.xlsx         # Předloha s formátováním a dropdowny
+│
+│
+│
+├── 📄 models.py                 # Třídy Zamestnanec a logika validace
+├── 📄 calculator.py             # Výpočet mezd a generování reportů
+├── 📄 data_handler.py           # Ukládání/načítání dat
+├── 📄 main.py                   # Hlavní konzolové rozhraní
+├── 📄 app_streamlite.py         # Hlavní webové rozhraní
+├── 📄 svatky.py                 # Seznam státních svátku ČR
+├── 📄 report_exporter.py        # Formát vystupu dat do reportu v excelu
+├── 📄 requirements.txt
+├── 📄 README.md
+└── 📄 .gitignore
